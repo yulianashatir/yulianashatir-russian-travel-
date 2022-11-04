@@ -16,7 +16,7 @@ Grid Layout
 BEM Methodology
 Figma
 ///////////////////
-Ссылка на реализованный проект:
+Ссылка на реализованный проект:https://yulianashatir.github.io/yulianashatir-russian-travel-/index.html
 
 
 
