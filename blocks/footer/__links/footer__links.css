@@ -5,8 +5,9 @@
     list-style-type: none;
     color: #fff;
    }
-   @media screen and (max-width: 700px) {
+   @media screen and (max-width: 767px) {
    .footer__links {
     flex-direction: column;
+    padding-bottom: 48px;
    }
    }

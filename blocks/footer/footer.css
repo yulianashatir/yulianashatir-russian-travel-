@@ -8,9 +8,9 @@
     background-color: #2A2C2F;
     }
       
-    @media screen and (min-width: 768px) and (max-width: 1023px) {
+    @media screen and (max-width: 1023px) {
     .footer {
-     padding: 88px 24px 24px 24px;
+     padding-top: 88px;
     }
     }
       
@@ -18,6 +18,8 @@
     .footer {
     flex-direction: column;
     align-items: flex-start;
-    padding: 64px 0 24px 16px;
+    padding-top: 64px;
+    padding-bottom: 16px;
+
     }
     }

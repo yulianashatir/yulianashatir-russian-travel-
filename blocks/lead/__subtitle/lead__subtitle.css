@@ -10,7 +10,7 @@ color:rgba(255, 255, 255, 1);
 }
 @media screen and (max-width: 1024px) {
     .lead__subtitle {
-      margin: 0 0 56px;
+      margin-bottom: 56px;
     }
   }
   
@@ -26,6 +26,6 @@ color:rgba(255, 255, 255, 1);
     .lead__subtitle {
       max-width: 288px;
       font-size: 16px;
-      margin: 0 0 40px;
+      margin-bottom: 40px;
     }
   }

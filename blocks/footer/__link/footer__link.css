@@ -13,6 +13,10 @@ transition: .2s ease-in-out;
 opacity: .5;
 }
 
+.footer__link:last-child {
+padding-bottom: 0;
+}
+
 @media screen and (max-width: 767px) {
 .footer__link {
  padding-bottom: 32px;

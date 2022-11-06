@@ -1,27 +1,27 @@
-.cover{
-    margin: 0 auto;
+.cover {
     width: 1184px;
+    height: 740px;
+    margin: 0 auto;
     position: relative;
-    height: 740px; 
   }
-
+  
   @media screen and (max-width: 1279px) {
     .cover {
-      max-width: 100%;
-      max-height: 640px;
+      width: 100%;
+      
     }
   }
   
   @media screen and (min-width: 375px) and (max-width: 1023px) {
     .cover {
-      max-width: 100%;
-      max-height: 480px;
+      width: 100%;
+      
     }
   }
   
   @media screen and (max-width: 374px) {
     .cover {
-      max-width: 100%;
-      max-height: 200px;
+      width: 100%;
+
     }
-}
+  }
