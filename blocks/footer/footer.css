@@ -1,25 +1,28 @@
 .footer {
+    padding: 92px 48px 24px 48px;
+    max-width: 1184px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    max-width: 1184px;
     margin: 0 auto;
-    padding: 92px 48px 24px 48px;
-    background-color: #2A2C2F;
+    align-items: center;
 }
 
 @media screen and (max-width: 1023px) {
     .footer {
         padding-top: 88px;
+        padding-left: 24px;
+        padding-right: 24px;
+        align-items: flex-start;
+        max-width: 720px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .footer {
         flex-direction: column;
-        align-items: flex-start;
+        max-width: 320px;
+        padding-left: 16px;
+        padding-right: 0;
         padding-top: 64px;
-        padding-bottom: 16px;
-
     }
 }
