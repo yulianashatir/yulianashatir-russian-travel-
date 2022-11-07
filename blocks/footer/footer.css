@@ -1,28 +1,28 @@
 .footer {
-    padding: 92px 48px 24px 48px;
     max-width: 1184px;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
     align-items: center;
-}
-
-@media screen and (max-width: 1023px) {
-    .footer {
+    padding: 92px 48px 24px 48px;
+  }
+  
+  @media screen and (max-width: 1023px) {
+    .footer{
+        align-items: flex-start;
         padding-top: 88px;
         padding-left: 24px;
         padding-right: 24px;
-        align-items: flex-start;
         max-width: 720px;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .footer {
+      } 
+  }
+  
+  @media screen and (max-width: 767px) {
+    .footer{
         flex-direction: column;
         max-width: 320px;
-        padding-left: 16px;
         padding-right: 0;
         padding-top: 64px;
-    }
-}
+        padding-left: 16px;
+      }    
+  }
