@@ -4,36 +4,35 @@
     font-size: 18px;
     line-height: 1.63;
     margin: 0 0 25px 0;
-  }
-  
-  .place__paragraph:last-of-type {
+}
+
+.place__paragraph:last-of-type {
     margin-bottom: 0;
-  }
-  
+}
+
 @media screen and (max-width: 768px) {
-.place__paragraph {
- font-size: 16px;
- line-height: 1.63;
+    .place__paragraph {
+        font-size: 16px;
+        line-height: 1.63;
+    }
 }
-}
-  
+
 @media screen and (max-width: 767px) {
-.place__paragraph {
-grid-column: 1;
-margin-left: 24px;
-margin-right: 24px;
+    .place__paragraph {
+        grid-column: 1;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+
+    .place__paragraph:first-of-type {
+        margin-top: 32px;
+    }
 }
-    
-.place__paragraph:first-of-type {
-margin-top: 32px;
-}
-}
-  
+
 @media screen and (max-width: 320px) {
-.place__paragraph {
-margin-right: auto;
-margin-left: auto;
-max-width: 90%;
+    .place__paragraph {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 90%;
+    }
 }
-}
-  

@@ -1,27 +1,27 @@
 .footer__link {
-display: block;
-color: #fff;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.13;
-padding-right: 18px;
-text-decoration: none;
-transition: .2s ease-in-out;
+    display: block;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.13;
+    padding-right: 18px;
+    text-decoration: none;
+    transition: .2s ease-in-out;
 }
-  
+
 .footer__link:hover {
-opacity: .5;
+    opacity: .5;
 }
 
 .footer__link:last-child {
-padding-bottom: 0;
+    padding-bottom: 0;
 }
 
 @media screen and (max-width: 767px) {
-.footer__link {
- padding-bottom: 32px;
- padding-right: 0;
- font-size: 24px;
- line-height: 1;
-}
+    .footer__link {
+        padding-bottom: 32px;
+        padding-right: 0;
+        font-size: 24px;
+        line-height: 1;
+    }
 }

@@ -1,7 +1,5 @@
 .header__lang-links {
-list-style: none;
-display: flex;
-align-self: flex-end;
+    list-style: none;
+    display: flex;
+    align-self: flex-end;
 }
-    
-
